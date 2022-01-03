@@ -5,8 +5,10 @@ The purpose of this challenge was to refactor a VBA Macro whcih is incharge of a
 ## Results
 ### Analysis
 Notice how in 2017, one had a lot more options of having a successful investment given that the stocks Return for most of the Tickers has a positive value as shown in the following image.
+\\
 <img width="275" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/95834653/147896003-d5fa9443-d487-47ec-baee-2afa39f18b4e.png">
 \\
 Now, notice how in 2018 there is a drastic change with all the tickers. The stocks Return for most of the Tickers has a negative value as shown in the following image.
+\\
 <img width="271" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/95834653/147896023-1030ee2b-da43-4d9f-a43c-0efa7e17c908.png">
 \\
