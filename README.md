@@ -16,7 +16,7 @@ I believe that there are mostly advantages when refactoring code. The first adva
 ### Pros and cons applied to refactoring the original VBA script
 As I mentioned before, one of the most important pros that I see is the fact that code is a lot more readable. Therefore, I attach the VBA code to show the fact that is easy to read and understand.\
 
-Sub AllStocksAnalysisRefactored()
+    Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -140,6 +140,15 @@ Sub AllStocksAnalysisRefactored()
     endTime = Timer
     MsgBox "Refactored Code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub/
+    End Sub
+    
+Now the second advantage as mentioned above, notice the first two pictures. Those are the running times of the code without refactoring.\
+<img width="251" alt="Screen Shot 2022-01-02 at 8 01 44 PM" src="https://user-images.githubusercontent.com/95834653/147896410-14b09dcd-5c2d-4d70-b419-7c4daade5953.png">\
+<img width="256" alt="Screen Shot 2022-01-02 at 8 01 57 PM" src="https://user-images.githubusercontent.com/95834653/147896416-fa8000bb-16c6-4e4a-ad12-4d873015b9ff.png">\
+Now, notice how the running time is a lot shorter after refactoring the code.\
+<img width="252" alt="Screen Shot 2022-01-02 at 8 02 11 PM" src="https://user-images.githubusercontent.com/95834653/147896437-29f04f2a-a5ce-4624-97a6-c0be94dbd355.png">\
+<img width="257" alt="Screen Shot 2022-01-02 at 8 02 24 PM" src="https://user-images.githubusercontent.com/95834653/147896440-fbe11e23-17ef-4faa-b915-8ec6d7e72fbf.png">
+
+
 
 
